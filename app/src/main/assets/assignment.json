@@ -1,0 +1,81 @@
+[
+  {
+    "dahsboard": {
+      "type": "BottomNavigation",
+      "children": [
+        {
+          "icon": "https://www.kasandbox.org/programming-images/avatars/marcimus-orange.png",
+          "label": "Home",
+          "screenId": "home"
+        },
+        {
+          "icon": "https://www.kasandbox.org/programming-images/avatars/marcimus-red.png",
+          "screenId": "myorder",
+          "label": "My Order"
+        },
+        {
+          "icon": "https://www.kasandbox.org/programming-images/avatars/marcimus.png",
+          "screenId": "profile",
+          "label": "Profile"
+        }
+      ]
+    }
+  },
+  {
+    "home": {
+      "type": "box",
+      "children": [
+        {
+          "url": "https://www.kasandbox.org/programming-images/avatars/leaf-blue.png",
+          "type": "image"
+        },
+        {
+          "url": "https://www.gstatic.com/webp/gallery3/1.sm.png",
+          "type": "image"
+        },
+        {
+          "text": "home",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  {
+    "myorder": {
+      "type": "box",
+      "children": [
+        {
+          "url": "https://www.kasandbox.org/programming-images/avatars/spunky-sam.png",
+          "type": "image"
+        },
+        {
+          "url": "https://www.kasandbox.org/programming-images/avatars/purple-pi-teal.png",
+          "type": "image"
+        },
+        {
+          "text": "myorder",
+          "type": "text"
+        }
+      ]
+    }
+  },
+  {
+    "profile": {
+      "type": "box",
+      "children": [
+        {
+          "url": "https://www.kasandbox.org/programming-images/avatars/marcimus-red.png",
+          "type": "image"
+        },
+        {
+          "url": "https://www.kasandbox.org/programming-images/avatars/duskpin-ultimate.png",
+          "type": "image"
+        },
+        {
+          "text": "profile",
+          "type": "text"
+        }
+      ]
+    }
+  }
+]
